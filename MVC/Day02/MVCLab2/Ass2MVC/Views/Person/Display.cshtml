@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Display";
+    Ass2MVC.Models.Person p = ViewBag.prs;
+    var imgpath = p.Image + ".jpg";
+}
+
+<h2>Display</h2>
+
+<h3>Show Details</h3>
+
+<p>Your id is : @p.Id</p>
+<p>Your Name is : @p.Name</p>
+<img src="\images\@imgpath" />
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCLab2", "MVCLab2\MVCLab2.csproj", "{F11B97F3-E7B6-4CD6-87BB-22D5F8859692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ass2MVC", "Ass2MVC\Ass2MVC.csproj", "{8E440663-4017-4B9C-9BC7-F128F006D3E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11B97F3-E7B6-4CD6-87BB-22D5F8859692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11B97F3-E7B6-4CD6-87BB-22D5F8859692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11B97F3-E7B6-4CD6-87BB-22D5F8859692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11B97F3-E7B6-4CD6-87BB-22D5F8859692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E440663-4017-4B9C-9BC7-F128F006D3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E440663-4017-4B9C-9BC7-F128F006D3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E440663-4017-4B9C-9BC7-F128F006D3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E440663-4017-4B9C-9BC7-F128F006D3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD382016-3291-4C16-BB0E-AAB7D53DE912}
+	EndGlobalSection
+EndGlobal

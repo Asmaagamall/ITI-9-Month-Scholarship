@@ -1,0 +1,16 @@
+﻿@using MVCLab2.Models
+@{
+    ViewBag.Title = "Edit";
+    Car EditCar = ViewBag.SelectedCar;
+}
+
+<h2>Edit</h2>
+
+<form action="/Car/Edit" method="post">
+    <input type="text" name="num" value="@EditCar.Num" />
+    <input type="text" name="Manfacture" value="@EditCar.Manfacture" />
+    <input type="text" name="Model" value="@EditCar.Model" />
+    <input type="text" name="Color" value="@EditCar.Color" />
+
+    <input type="submit" value="save" />
+</form>

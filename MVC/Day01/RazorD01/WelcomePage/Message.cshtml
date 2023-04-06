@@ -1,0 +1,84 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title></title>
+</head>
+<body>
+    <div style="display:flex; flex-direction : row;">
+        <form method="post" style="width: 50%; background-color: antiquewhite;">
+            <div style="display:flex; flex-direction : column;">
+
+                <label>choose a background image</label>
+                <select name="imglst">
+                    <option value="0.jpg"> 0</option>
+                    <option value="1.jpg"> 1</option>
+                    <option value="2.jpg"> 2</option>
+                    <option value="3.jpg"> 3</option>
+                    <option value="4.jpg"> 4</option>
+                    <option value="5.jpg"> 5</option>
+                    <option value="6.jpg"> 6</option>
+                    <option value="7.jpg"> 7</option>
+                    <option value="8.jpg"> 8</option>
+                    <option value="9.jpg"> 9</option>
+                    <option value="10.jpg"> 10</option>
+                    <option value="11.jpg"> 11</option>
+                </select>
+
+                <label>choose a font color</label>
+                <select name="color">
+                    <option value="Purple">Purple</option>
+                    <option value="Gray"> Gray</option>
+                    <option value="Bink">Bink</option>
+                    <option value="Blue">Blue</option>
+                </select>
+
+                <label>choose a greeting type</label>
+                <input type="radio" name="birth" value="Birthday" />Birthday
+                <input type="radio" name="tired" value="Get Well Soon" />Get Well Soon
+                <input type="radio" name="love" value="Valentine" />Valentine
+                <input type="radio" name="party" value="Congrats" />Congrats
+
+                <input type="checkbox" name="image" value="add" />Add the picture
+
+                <label>Enter the greeting message below : </label>
+                <textarea name="txt"></textarea>
+
+                <input type="submit" value="Preview" />
+
+            </div>
+        </form>
+        @{
+            var fullPathBack = "backgrounds/" + Request["imglst"];
+        }
+        <div style="background-image:url(@fullPathBack); width : 50%; text-align:center">
+
+            @if (IsPost)
+            {
+                @*<img src="@fullPathBack" />*@
+                if (Request["birth"] == "Birthday")
+                {<p style="color:@Request["color"]">Happy Birthday!!!</p> <img src="images/bd2" />}
+                else if (Request["tired"] == "Get Well Soon")
+                { <p style="color:@Request["color"]">Get Well Soon!</p> <img src="images/well.gif" />}
+                else if (Request["love"] == "Valentine")
+                { <p style="color:@Request["color"]">Happy Valentine!!!</p>
+                    <img src="images/val.bmp" />}
+                else
+                { <p style="color:@Request["color"]">Congratulations!!!</p> <img src="well" />}
+
+                <div style="color:@Request["color"]">@Request["txt"]</div>
+
+
+
+
+            }
+        </div>
+    </div>
+
+    @{ 
+
+     }
+</body>
+</html>

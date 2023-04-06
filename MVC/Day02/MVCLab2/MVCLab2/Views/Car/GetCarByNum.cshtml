@@ -1,0 +1,15 @@
+﻿@using MVCLab2.Models;
+@{
+    ViewBag.Title = "GetCarByNum";
+    Car car = ViewBag.SelectedCar;
+
+}
+
+<h2>GetCarByNum</h2>
+
+<h4> Num : @car.Num</h4>
+<h4> Manfacture : @car.Manfacture</h4>
+<h4> Model : @car.Model</h4>
+<h4> Color : @car.Color</h4>
+<a href="/Car/GetAll"> Get All Cars</a>
+

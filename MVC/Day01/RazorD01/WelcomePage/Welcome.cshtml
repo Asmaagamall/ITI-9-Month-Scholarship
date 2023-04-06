@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+
+    <form method="post">
+        name : <input type="text" name="name" value="" />
+        <br />
+        BirthDate : <input type="date" name="birthdate" value="" />
+        <br />
+        <input type="submit" value="Go" />
+        <input type="checkbox" name="isgraduate" value="grad" /> is Graduated
+    </form>
+    @if (IsPost)
+    {
+        <p style="color:red"> Hello @Request["name"]</p>
+        <p style="color:blue">Your BirthDate is @Request["birthdate"]</p>
+        if (Request["isgraduate"] == "grad")
+        {
+            <div>Yess am Graduated</div>
+        }
+    }
+
+</body>
+</html>
