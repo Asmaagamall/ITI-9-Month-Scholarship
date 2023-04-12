@@ -1,0 +1,23 @@
+<h1>Students</h1>
+
+<table class="table table-stripped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of users" > 
+            <td>{{s.name}}</td>
+            <td>{{s.age}}</td>
+            <td>{{s.email}}</td>
+            <td>{{s.phone}}</td>
+            <td><a routerLink="/usrDetails/{{s.id}}">Details</a></td>
+            <td><a routerLink="/updateUser/{{s.id}}">Update</a></td>
+            <td><a href="" (click)="delete(s.id)">Delete</a></td>
+        </tr> 
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+<div class="form">
+    <div class="form-group">
+        <label>Name</label>
+        <input #name type="text" value="{{user.name}}" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Age</label>
+        <input #age type="number" value="{{user.age}}" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input #email type="email" value="{{user.email}}" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Phone</label>
+        <input #phone type="text" value="{{user.phone}}" class="form-control">
+    </div>
+    <div class="form-group">
+        <input type="button" value="Update" (click)="Update(name.value,age.value,phone.value,email.value)" class="btn btn-primary">
+    </div>
+
+</div>
+<a routerLink="/" class="btn btn-outline-primary"> Back To Home</a>

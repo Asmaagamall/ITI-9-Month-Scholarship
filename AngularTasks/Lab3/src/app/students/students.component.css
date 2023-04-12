@@ -1,0 +1,12 @@
+table{
+    background-color: azure;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    margin:5px auto;
+    border-radius: 10px;
+}
+
+td , tr , th {
+    border: 1px solid black;
+}

@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+    background-color: beige;
+    border-bottom: 2px dashed lightblue;
+    text-align: center;
+    width: 50%;
+    color: lightblue;
+    border-radius: 10px;
+    margin: 5px auto;
+}

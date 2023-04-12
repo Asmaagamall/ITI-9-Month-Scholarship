@@ -1,0 +1,26 @@
+.form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: azure;
+}
+
+.form input{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form input[type = "button"]{
+    width: 30%;
+    opacity: 0.9;
+    color: white;
+    background-color: lightblue;
+}
+.form input[type = "button"]:active{
+    opacity: 1;
+}

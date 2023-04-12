@@ -1,0 +1,8 @@
+<div *ngIf="user" class="alert alert-primary">
+    <p>{{user.name}}</p>
+    <p>{{user.age}}</p>
+    <p>{{user.email}}</p>
+    <p>{{user.phone}}</p>
+    <p *ngFor="let crs of user.courses"> {{crs.crsname}}</p>
+</div>
+<a routerLink="/" class="btn btn-outline-primary"> Back To Home</a>

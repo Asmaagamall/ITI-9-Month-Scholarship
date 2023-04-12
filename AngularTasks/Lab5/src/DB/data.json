@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "name": "Ali",
+      "age": "30",
+      "email": "aly@email.com",
+      "phone": "1232423",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Amr",
+      "email": "amr@email.com",
+      "phone": "123242343",
+      "age": "22",
+      "courses": [
+        {
+          "crsname": "Java"
+        },
+        {
+          "crsname": "php"
+        },
+        {
+          "crsname": "JS"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Asmaa",
+      "email": "asmaa@email.com",
+      "phone": "12332323",
+      "age": "21",
+      "courses": [
+        {
+          "crsname": "Java"
+        },
+        {
+          "crsname": "php"
+        },
+        {
+          "crsname": "JS"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ahmed",
+      "email": "ahmed@email.com",
+      "phone": "1232423",
+      "age": "24",
+      "courses": [
+        {
+          "crsname": "Java"
+        },
+        {
+          "crsname": "php"
+        },
+        {
+          "crsname": "JS"
+        }
+      ]
+    },
+    {
+      "name": "Anas",
+      "age": "25",
+      "email": "98734974",
+      "phone": "anas@email.com",
+      "id": 5
+    },
+    {
+      "name": "Esraa",
+      "age": "27",
+      "email": "48975",
+      "phone": "esraa@email.com",
+      "id": 7
+    }
+  ]
+}
