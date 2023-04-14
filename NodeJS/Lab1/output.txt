@@ -1,0 +1,1 @@
+your result is : NaNyour result is : 7your result is : NaNyour result is : 7your result is : -1your result is : 12your result is : 0.75your result is : 12your result is : 12your result is : -1your result is : 35your result is : 15your result is : 0.6
